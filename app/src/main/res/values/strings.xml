@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">iCalculator</string>
+    <string name="process">475 + 3849</string>
+    <string name="calc">73842</string>
+
+    <string name="xp">x!</string>
+    <string name="sqr">√</string>
+    <string name="sqry">y√x</string>
+
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+
+    <string name="e">e</string>
+    <string name="log">log</string>
+    <string name="abs">abs</string>
+
+    <string name="pie">π</string>
+    <string name="ln">ln</string>
+    <string name="flr">flr</string>
+
+    <string name="x2">x2</string>
+    <string name="x3">x3</string>
+    <string name="xy">xY</string>
+
+    <string name="percent">%</string>
+    <string name="zero">0</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="plus">+</string>
+
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="minus">-</string>
+
+    <string name="clear">c</string>
+    <string name="divide">÷</string>
+    <string name="times">x</string>
+    <string name="del">del</string>
+</resources>
