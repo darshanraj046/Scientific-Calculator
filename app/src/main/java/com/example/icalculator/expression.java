@@ -124,7 +124,7 @@ public class expression {
         double val1 = 0;
         double answer = 0;
         val1 = Double.parseDouble(no1);
-        answer = Math.log(val1);
+        answer = Math.log10(val1);
         String value = "";
         if (!before.isEmpty() && !((exp.charAt(exp.indexOf("L")-1) == '+') && (exp.charAt(exp.indexOf("L")-1) == '-') && (exp.charAt(exp.indexOf("L")-1) == 'X') && (exp.charAt(exp.indexOf("L")-1) == '÷')) ) {
             value = "x" + answer;
@@ -144,7 +144,7 @@ public class expression {
         double val1 = 0;
         double answer = 0;
         val1 = Double.parseDouble(no1);
-        answer = Math.pow(Math.log10(val1), val1);
+        answer = Math.log(val1);
         String value = "";
         if (!before.isEmpty() && !((exp.charAt(exp.indexOf("L")-1) == '+') && (exp.charAt(exp.indexOf("L")-1) == '-') && (exp.charAt(exp.indexOf("L")-1) == 'X') && (exp.charAt(exp.indexOf("L")-1) == '÷')) ) {
             value = "x" + answer;
@@ -169,7 +169,7 @@ public class expression {
         else {
             val1 = Double.parseDouble(no1);
 
-            answer = Math.cos(val1);
+            answer = Math.sin(val1);
         }
 
         return (answer);
@@ -208,7 +208,7 @@ public class expression {
         else {
             val1 = Double.parseDouble(no1);
 
-            answer = Math.cos(val1);
+            answer = Math.tan(val1);
         }
 
         return (answer);
